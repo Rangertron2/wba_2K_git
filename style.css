@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+font-size: 30px;
+font-weight: 600;
+
+}
+.text1 {
+background-color: #02595c;
+color: #ffffff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+
+font-size: 20px;
+}
+.p1 {
+    
+ 
+}
+.p1::before{
+content: "Lorem";
+font-weight: 800;
+}
+
+p:nth-child(2)::first-letter {
+    color: #f9d423;
+}
+
+
+img{
+border-radius: 55px;
+
+
+}
+.img {
+    padding: 50px;
+    background-color: #f9d423;
+}
+
